@@ -1,0 +1,219 @@
+body {
+    background-color: #F4F5F5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(#070126, #0d033f);
+    padding: 20px;
+    color: #F4F5F5;
+}
+
+#logo {
+    width: 95px;
+}
+
+nav {
+    display: flex;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+
+nav h3 {
+    display: inline;
+    color: #F4F5F5;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+nav h3:hover {
+    transform: scale(1.2);
+
+}
+
+
+#conteudo {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff0000;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/tecnologia-da-informacao-890x500-1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin: 0;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 20px 0;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.hero button {
+    padding: 12px 24px;
+    background-color: white;
+    color: #004080;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeInUp 2.5s ease-in-out;
+}
+
+.hero button:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f0f0f5;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #004080;
+}
+
+.section h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #50c0e2;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projects,
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.project,
+.testimonial {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover,
+.testimonial:hover {
+    transform: translateY(-10px);
+}
+
+.project h3,
+.testimonial p {
+    font-size: 20px;
+    color: #004080;
+}
+
+footer {
+    background-color: #0d033f;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Animações */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

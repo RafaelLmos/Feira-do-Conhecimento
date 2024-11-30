@@ -1,0 +1,160 @@
+body {
+    background-color: #F4F5F5;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(#070126, #0d033f);
+    padding: 20px;
+    color: #F4F5F5;
+}
+
+#logo {
+    width: 95px;
+}
+
+nav {
+    display: flex;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+
+nav h3 {
+    display: inline;
+    color: #F4F5F5;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+nav h3:hover {
+    transform: scale(1.2);
+
+}
+
+
+#conteudo {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff0000;
+}
+
+#contatar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#icones-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* Ajuste o espaçamento entre os ícones */
+    margin-bottom: 20px;
+}
+
+.icone {
+    text-align: center;
+}
+
+.icone img {
+    width: 50px;
+    /* Ajuste o tamanho do ícone conforme necessário */
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #0d033f;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Animações */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
