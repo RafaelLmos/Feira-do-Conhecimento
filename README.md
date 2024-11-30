@@ -1,1 +1,1 @@
-Esse projeto foi concluido, porem essa versão é a incompleta, faltando a pagina de cursos e algumas funções, mas já é uma versão do site avançada
+Esse projeto foi concluído, embora esta versão esteja incompleta. Faltam a página de cursos e algumas funcionalidades, mas já representa uma versão avançada do site desenvolvido pelo nosso grupo.
